@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    color : white;
+    height : 100vh;
+    width : 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    border : 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 1.1rem;
+    background-color: white;
+    color : black;
+    gap : 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+img {
+    height : 10rem;
+    width : 10rem;
+    border-radius: 5px;
+}
+
+.profile {
+    /* height : 2rem;
+    width : 2rem; */
+}
+
+.username {
+    color : black;
+}
+
+.nickname {
+    color : orangered;
+}
+
+button {
+    height : 25px;
+    width : 80px;
+    border : gray;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.Remove {
+    background-color: rgb(228, 226, 226);
+}
+.add-friend {
+    background-color: rgb(15, 157, 15);
+    color : white;
+}
